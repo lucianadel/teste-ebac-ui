@@ -15,9 +15,8 @@ describe('Funcionalidade: Produtos', () => {
         .contains('Ajax Full-Zip Sweatshirt')
         .click()
         cy.get('#tab-title-description >').should('contain', 'Descrição')
-        
-        
-        
+                
     });
+    
     
 });
